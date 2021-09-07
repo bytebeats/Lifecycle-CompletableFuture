@@ -1,0 +1,3 @@
+rootProject.name = "CompletableFuture-OnMainThread"
+include ':app'
+include ':completablefuture-on-main-thread-library'
