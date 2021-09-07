@@ -1,3 +1,3 @@
 rootProject.name = "CompletableFuture-OnMainThread"
 include ':app'
-include ':main-completablefuture'
+include ':lifecycle-cfuture-library'
