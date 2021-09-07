@@ -41,5 +41,5 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.0'
 
     implementation 'net.sourceforge.streamsupport:android-retrofuture:1.7.3'
-    implementation(project(':main-completablefuture'))
+    implementation(project(':lifecycle-cfuture-library'))
 }
