@@ -19,6 +19,18 @@ class MainThreadExecutor() : Executor {
     }
 
     companion object Factory {
+        private var INSTANCE: MainThreadExecutor? = null
+        fun instance(): MainThreadExecutor {
+            if (INSTANCE == null) {
+                synchronized(MainThreadExecutor::class.java) {
+                    if (INSTANCE == null) {
+                        INSTANCE = MainThreadExecutor()
+                    }
+                }
+            }
+            return INSTANCE!!
+        }
+
         fun create(): MainThreadExecutor = MainThreadExecutor()
     }
 }
