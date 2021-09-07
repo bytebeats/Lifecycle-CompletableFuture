@@ -12,7 +12,7 @@ import android.os.Looper
  * @Description Handler that runs on main thread.
  */
 
-class MainHandler() : Handler(Looper.getMainLooper()) {
+class MainHandler : Handler(Looper.getMainLooper()) {
     companion object Factory {
         private var INSTANCE: MainHandler? = null
         fun instance(): MainHandler {
