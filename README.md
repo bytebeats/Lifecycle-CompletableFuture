@@ -23,7 +23,7 @@ Notes
 
 Effect Graph
 -------
-<img src="/media/completablefuture_with_lifecycle.png"/>
+<img src="/media/cf_with_lifecycle.png"/>
 
 How to Use?
 ------
